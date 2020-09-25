@@ -1,0 +1,207 @@
+//COLORS 
+
+$blue: #345D74;
+$white:#fff;
+$dark-white:#F4F4F4;
+$gray: #E0E0E0;
+$black: #000;
+
+//BODY      
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $dark-white;
+    font-family: 'Raleway', sans-serif;
+    color: $white;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+//MARGIN 10PX 15PX 25PX
+
+.mb {
+    &-10 {
+        margin-bottom: 10px;
+    }
+    &-15 {
+        margin-bottom: 15px;
+    }
+    &-25 {
+        margin-bottom: 25px;
+    }
+}
+
+.mt {
+    &-10 {
+        margin-top: 10px;
+    }
+    &-15 {
+        margin-top: 15px;
+    }
+    &-25 {
+        margin-top: 25px;
+    }
+}
+
+.mr {
+    &-10 {
+        margin-right: 10px;
+    }
+    &-15 {
+        margin-right: 15px;
+    }
+    &-25 {
+        margin-right: 25px;
+    }
+}
+
+.ml {
+    &-10 {
+        margin-left: 10px;
+    }
+    &-15 {
+        margin-left: 15px;
+    }
+    &-25 {
+        margin-left: 25px;
+    }
+}
+
+//PADDING 10PX 15PX 25PX
+
+.pb {
+    &-10 {
+        padding-bottom: 10px;
+    }
+    &-15 {
+        padding-bottom: 15px;
+    }
+    &-25 {
+        padding-bottom: 25px;
+    }
+}
+
+.pt {
+    &-10 {
+        padding-top: 10px;
+    }
+    &-15 {
+        padding-top: 15px;
+    }
+    &-25 {
+        padding-top: 25px;
+    }
+}
+
+.pr {
+    &-10 {
+        padding-right: 10px;
+    }
+    &-15 {
+        padding-right: 15px;
+    }
+    &-25 {
+        padding-right: 25px;
+    }
+}
+
+.pl {
+    &-10 {
+        padding-left: 10px;
+    }
+    &-15 {
+        padding-left: 15px;
+    }
+    &-25 {
+        padding-left: 25px;
+    }
+}
+
+//FONTS
+
+.ff-mon {
+    &-sb {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    &-b {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+}
+
+//BUTTONS
+
+.btn {
+    display: inline-block;
+    background-color: $blue;
+    border-radius: 2px;
+    color: $white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    transition: all .5s ease;
+    &:hover {
+        color: $black;
+        background-color: $dark-white;
+        transition: all .5s ease;
+    }
+    &-lg {
+        padding: 12px;
+        font-size: 8px;
+    }
+    &-sm {
+        padding: 8px;
+        font-size: 8px;
+    }
+    &-md {
+        padding: 10px;
+        font-size: 8px;
+    }
+}
+
+//RELATIVE AND ABSOLUTE
+
+.be-relative {
+    position: relative;
+}
+.be-static {
+    position: static;
+}
+.be-absolute {
+    position: absolute;
+}
+
+//CLIP PATH 
+
+.cl-p {
+    clip-path: polygon(100% 90%, 0% 100%, 0% 0%, 100% 0%);
+}
+
+//MASKS
+
+// .mask-80 {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: rgb(0, 0, 0);
+//     opacity: 80%; 
+// }
